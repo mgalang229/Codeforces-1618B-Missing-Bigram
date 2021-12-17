@@ -33,7 +33,7 @@ int main() {
 		}
 		// ONLY DIFFERENCE:
 		// if the length of the answer is still less than n, then simply append the 2nd character of the last bigram
-    // (the last bigram was removed and it needs to be connected to the 2nd character of the current last bigram)
+    		// (the last bigram was removed and it needs to be connected to the 2nd character of the current last bigram)
 		if ((int) ans.size() < n) {
 			ans += string(1, s[n - 3][1]);
 		}
